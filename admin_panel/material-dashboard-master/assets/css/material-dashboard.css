@@ -5161,7 +5161,7 @@ tbody.collapse.show {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
   background-color: inherit;
-  border: 0 solid rgba(0, 0, 0, 0.125);
+  border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 .list-group-item:first-child {
@@ -17260,6 +17260,12 @@ label {
 
 .table-sales {
   margin-top: 40px;
+}
+
+.servicelist .material-icons{
+	float:left;
+	padding-right:10px;
+	color:#fc4d1e;
 }
 
 .iframe-container {
