@@ -43,7 +43,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./member-management.html">
+            <a class="nav-link" href="./customer-management.html">
               <i class="material-icons">person</i>
               <p>Member Management</p>
             </a>
@@ -161,6 +161,53 @@
       </nav>
       <!-- End Navbar -->
       <div class="content">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="buttons ml-3">
+						<a href="../../../Agent_Registration_Form.html" class="btn btn-info pull-left mb-4">New Agent</a>
+						<a href="#" class="btn btn-info pull-left mb-4">Import Agents</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="card">
+						<div class="card-header card-header-primary">
+						  <h4 class="card-title pull-left my-3">Agents Summary</h4>
+						</div>
+						<div class="card-body">
+							<div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 pull-left border-right">
+								<h3 class="bold">11</h3>
+								<span class="text-dark">Total Agents</span>
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 pull-left border-right">
+								<h3 class="bold">11</h3>
+								<span class="text-success">Active Agents</span>
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 pull-left border-right">
+								<h3 class="bold">0</h3>
+								<span class="text-danger">Inactive Agents</span>
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 pull-left border-right">
+								<h3 class="bold">11</h3>
+								<span class="text-info">Active Contacts</span>
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 pull-left border-right">
+								<h3 class="bold">0</h3>
+								<span class="text-danger">Inactive Contacts</span>
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 pull-left">
+								<h3 class="bold">1</h3>
+								<span class="text-danger">Contacts Logged In Today</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12">
@@ -532,14 +579,29 @@
   <script src="../assets/js/material-dashboard.js?v=2.1.1" type="text/javascript"></script>
   <!-- Material Dashboard DEMO methods, don't include it in your project! -->
   <script src="../assets/demo/demo.js"></script>
+  
   <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
   <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
-  <script>
+  <script src="https://cdn.datatables.net/buttons/1.5.6/js/dataTables.buttons.min.js"></script>
+  <script src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.flash.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+  <script src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.html5.min.js"></script>
+  <script src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.print.min.js"></script>
+  
+ <script>
     $(document).ready(function() {
-      $().ready(function() {
-		$('#example').DataTable();
+     
+		$('#example').DataTable({
+			dom: 'lBfrtip',
+				buttons: [
+					'copy', 'csv', 'excel', 'pdf'
+				]
+		});
+		
         $sidebar = $('.sidebar');
-
+          
         $sidebar_img_container = $sidebar.find('.sidebar-background');
 
         $full_page = $('.full-page');
@@ -704,7 +766,7 @@
 
         });
       });
-    });
+    
   </script>
 </body>
 

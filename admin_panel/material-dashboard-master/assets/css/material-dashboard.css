@@ -8974,6 +8974,7 @@ a.text-dark:focus {
   background-color: #00bcd4;
   border-color: #00bcd4;
   box-shadow: 0 2px 2px 0 rgba(0, 188, 212, 0.14), 0 3px 1px -2px rgba(0, 188, 212, 0.2), 0 1px 5px 0 rgba(0, 188, 212, 0.12);
+  border-radius:40px;
 }
 
 .btn.btn-info:hover {
@@ -11891,13 +11892,20 @@ fieldset[disabled][disabled] .has-info .form-control,
 }
 .mdl-layout{width:39%;float:left;}
 .dataTables_wrapper a{float:left;}
-.dataTables_wrapper a .view{background:url(../img/view.png) no-repeat center; width:32px; height:19px; float:left; margin-top:6px; margin-right:5px;}
-.dataTables_wrapper a .edit{background:url(../img/edit.png) no-repeat center; width:28px; height:30px; float:left; margin-right:5px;}
-.dataTables_wrapper a .view:hover{background:url(../img/view_hover.png) no-repeat center; width:32px; height:19px; float:left; margin-top:5px; margin-right:5px;}
-.dataTables_wrapper a .edit:hover{background:url(../img/edit_hover.png) no-repeat center; width:28px; height:30px; float:left; margin-right:5px; transition:.4s; -webkit-transition:.4s;}
+.dataTables_wrapper a .view{background:url(../img/view.png) no-repeat center; width:26px; height:17px; float:left; margin-top:5px; margin-right:5px;}
+.dataTables_wrapper a .edit{background:url(../img/edit.png) no-repeat center; width:24px; height:25px; float:left; margin-right:5px;}
+.dataTables_wrapper a .view:hover{background:url(../img/view_hover.png) no-repeat center; width:26px; height:17px; float:left; margin-top:5px; margin-right:5px;}
+.dataTables_wrapper a .edit:hover{background:url(../img/edit_hover.png) no-repeat center; width:24px; height:25px; float:left; margin-right:5px; transition:.4s; -webkit-transition:.4s;}
 table.dataTable{font-weight:500;}
-table.table-bordered.dataTable th{font-weight:600;}
+table.table-bordered.dataTable th{font-weight:600; font-size:14px;}
 table.table-bordered.dataTable td{font-size:12px;}
+
+#example_length{float:left;}
+.dt-buttons{float:left; margin-left:40px;}
+.dt-buttons .dt-button{border-radius:40px; width:85px;}
+#example_filter{float:right;}
+#example_info{float:left;}
+#example_paginate{float:right;}
 
 
 table.dataTable thead .sorting:before, table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:before, table.dataTable thead .sorting_desc_disabled:after{bottom:0.3rem;}
@@ -14465,6 +14473,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 
 .footer .copyright {
   padding: 15px 0;
+  font-weight:500;
 }
 
 .footer .copyright .material-icons {
@@ -16342,7 +16351,7 @@ legend {
 }
 
 a {
-  color: #9c27b0;
+  color: #fc4d1e;
 }
 
 a:hover,
