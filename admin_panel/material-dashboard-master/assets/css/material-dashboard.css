@@ -11891,11 +11891,11 @@ fieldset[disabled][disabled] .has-info .form-control,
 	margin:5px;
 }
 .mdl-layout{width:39%;float:left;}
-.dataTables_wrapper a{float:left;}
-.dataTables_wrapper a .view{background:url(../img/view.png) no-repeat center; width:26px; height:17px; float:left; margin-top:5px; margin-right:5px;}
-.dataTables_wrapper a .edit{background:url(../img/edit.png) no-repeat center; width:24px; height:25px; float:left; margin-right:5px;}
-.dataTables_wrapper a .view:hover{background:url(../img/view_hover.png) no-repeat center; width:26px; height:17px; float:left; margin-top:5px; margin-right:5px;}
-.dataTables_wrapper a .edit:hover{background:url(../img/edit_hover.png) no-repeat center; width:24px; height:25px; float:left; margin-right:5px; transition:.4s; -webkit-transition:.4s;}
+.dataTable a{float:left;}
+.dataTable a .view{background:url(../img/view.png) no-repeat center; width:26px; height:17px; float:left; margin-top:5px; margin-right:5px;}
+.dataTable a .edit{background:url(../img/edit.png) no-repeat center; width:24px; height:25px; float:left; margin-right:5px;}
+.dataTable a .view:hover{background:url(../img/view_hover.png) no-repeat center; width:26px; height:17px; float:left; margin-top:5px; margin-right:5px;}
+.dataTable a .edit:hover{background:url(../img/edit_hover.png) no-repeat center; width:24px; height:25px; float:left; margin-right:5px; transition:.4s; -webkit-transition:.4s;}
 table.dataTable{font-weight:500;}
 table.table-bordered.dataTable th{font-weight:600; font-size:14px;}
 table.table-bordered.dataTable td{font-size:12px;}
@@ -11908,7 +11908,7 @@ table.table-bordered.dataTable td{font-size:12px;}
 #example_paginate{float:right;}
 
 
-table.dataTable thead .sorting:before, table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:before, table.dataTable thead .sorting_desc_disabled:after{bottom:0.3rem;}
+table.dataTable thead .sorting:before, table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:before, table.dataTable thead .sorting_desc_disabled:after{bottom:1.2rem;}
 
 fieldset[disabled][disabled] .has-white .form-control,
 .has-white .form-control.disabled,
