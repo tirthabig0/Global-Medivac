@@ -11906,9 +11906,10 @@ table.table-bordered.dataTable td{font-size:12px;}
 #example_filter{float:right;}
 #example_info{float:left;}
 #example_paginate{float:right;}
+.btn-rounded, .btn-rounded:hover, .btn-rounded:focus{border-radius:40px; width:85px; height:33px; padding:0; text-align:center; box-shadow:2px 2px 0 #898989; color:#000; background:#ddd;}
 
 
-table.dataTable thead .sorting:before, table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:before, table.dataTable thead .sorting_desc_disabled:after{bottom:1.2rem;}
+table.dataTable thead .sorting:before, table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:before, table.dataTable thead .sorting_desc_disabled:after{bottom:0.3rem;}
 
 fieldset[disabled][disabled] .has-white .form-control,
 .has-white .form-control.disabled,
