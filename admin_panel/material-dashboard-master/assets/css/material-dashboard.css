@@ -900,7 +900,7 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 
@@ -13727,9 +13727,9 @@ h2,
 
 h3,
 .h3 {
-  font-size: 1.5625rem;
-  line-height: 1.4em;
-  margin: 20px 0 10px;
+  font-size: 1rem;
+  line-height: 1em;
+  margin: 10px 0 10px;
 }
 
 h4,
@@ -14608,7 +14608,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 }
 
 .sidebar .nav {
-  margin-top: 20px;
+  margin-top: 10px;
   display: block;
 }
 
@@ -14693,7 +14693,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
   padding-right: 10px;
   text-transform: capitalize;
   font-size: 13px;
-  padding: 10px 15px;
+  padding: 5px 15px;
 }
 
 .sidebar .sidebar-background {
@@ -14720,7 +14720,7 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 }
 
 .sidebar .logo {
-  padding: 15px 0px;
+  padding: 0px;
   margin: 0;
   display: block;
   position: relative;
@@ -14927,12 +14927,13 @@ fieldset[disabled] .form-group.is-focused .togglebutton label {
 
 .main-panel>.content {
   margin-top: 70px;
-  padding: 30px 15px;
+  padding: 15px;
   min-height: calc(100vh - 123px);
 }
 
 .main-panel>.footer {
-  border-top: 1px solid #e7e7e7;
+  /*border-top: 1px solid #e7e7e7;*/
+  border-top:0;
 }
 
 .main-panel>.navbar {
@@ -16665,8 +16666,8 @@ label {
 
 .card {
   border: 0;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
   border-radius: 6px;
   color: #333333;
   background: #fff;
@@ -17011,9 +17012,14 @@ label {
 }
 
 .card .card-body {
-  padding: 0.9375rem 20px;
+  /*padding: 0.9375rem 20px;*/
+  padding:0.5rem 20px;
   position: relative;
 }
+
+.card .card-body span{font-size:12px;}
+.card .card-body h3{font-weight:500;}
+.servicelist{padding:10px 0 0; overflow:hidden;}
 
 .card .card-body .form-group {
   margin: 8px 0 0;
@@ -17024,7 +17030,7 @@ label {
 }
 
 .card .card-header .card-title {
-  margin-bottom: 3px;
+  /*margin-bottom: 3px;*/
 }
 
 .card .card-header .card-category {
@@ -17162,7 +17168,7 @@ label {
 .card [class*="card-header-"]:not(.card-header-icon):not(.card-header-text):not(.card-header-image) {
   border-radius: 3px;
   margin-top: -20px;
-  padding: 15px;
+  padding: 8px 15px;
 }
 
 .card [class*="card-header-"] .card-icon,

@@ -30,7 +30,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 .form_body legend{text-align:left; font-size:1.2rem;}
 #spouse_information .fa{float:left; padding-top:10px; padding-right:30px; color:#007bff;}
 .btn-rounded{background:#fc4d1e; color:#fff !important;}
-.logo{text-align:center; padding:30px 0;}
+.logo{text-align:center; padding:10px 0;}
 .plan{padding:20px 15px; border-radius:60px 0; text-align:center;}
 .plan h2{color:#fff; font-weight:bold; background:url(../images/border.png) no-repeat center bottom; font-size:24px; text-align:center; padding-bottom:13px; margin:0;}
 .plan .price{font-weight:bold; text-align:center; padding:15px 0; font-size:30px;}
@@ -407,7 +407,7 @@ span.nmbr {
 
 .form-signin {
   width: 100%;
-  margin-top:3rem;
+  margin-top:2.4rem;
 }
 
 .form-signin .btn, .form-forgot-password .btn {
@@ -497,7 +497,7 @@ span.nmbr {
 
 .other_links{
 	overflow:hidden;
-	margin:30px 0 0;
+	margin:20px 0 0;
 	font-size:13px;
 }
 .other_links .member{float:left;}
