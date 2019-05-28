@@ -16329,6 +16329,12 @@ thead.thead-inverse th,
   padding: 5px !important;
 }
 
+.dataTable tr td.sorting_1 .material-icons{
+	float:left;
+	margin-right:15px;
+	color:#9e1c20;
+}
+
 body {
   background-color: #eee;
   color: #3C4858;

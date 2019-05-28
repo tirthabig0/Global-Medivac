@@ -161,15 +161,24 @@
       </nav>
       <!-- End Navbar -->
       <div class="content">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="buttons ml-3">
+						<a href="#" class="btn btn-info pull-left mb-4">Add Service</a>
+					</div>
+				</div>
+			</div>
+		</div>
         <div class="container-fluid">
-          <div class="row">
+        <div class="row">
             <div class="col-md-12">
               <div class="card">
                 <div class="card-header card-header-primary">
                   <h4 class="card-title pull-left">Service List</h4>
                 </div>
                 <div class="card-body">
-					<div class="servicelist">
+					<!--<div class="servicelist">
 						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 pull-left pb-3">&nbsp;<i class="material-icons">check_circle</i>Emergency Air Transportation</div>
 						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 pull-left pb-3">&nbsp;<i class="material-icons">check_circle</i>Helicopter Transportation</div>
 						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 pull-left pb-3">&nbsp;<i class="material-icons">check_circle</i>Ground Ambulance Transportation</div>
@@ -184,11 +193,180 @@
 						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 pull-left pb-3">&nbsp;<i class="material-icons">check_circle</i>Mortal Remains Transport</div>
 						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 pull-left pb-3">&nbsp;<i class="material-icons">check_circle</i>Worldwide Coverage</div>
 						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 pull-left pb-3">&nbsp;<i class="material-icons">check_circle</i>Pet Return</div>
-					</ul>
-                </div>
-            </div>
-          </div>
-        </div>
+					</div>-->
+					<table id="example" class="table table-striped table-bordered" style="width:100%">
+						<thead>
+							<tr>
+								<th width="85%">Service Name</th>
+								<th width="15%">Actions</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><i class="material-icons">check_circle</i>Emergency Air Transportation</td>
+								<td>
+									<a href="#"><span class="view"></span></a>
+									<a href="#"><span class="edit"></span></a>
+									<label class="switch">
+										<input type="checkbox">
+										<span class="slider"></span>
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td><i class="material-icons">check_circle</i>Helicopter Transportation</td>
+								<td>
+									<a href="#"><span class="view"></span></a>
+									<a href="#"><span class="edit"></span></a>
+									<label class="switch">
+										<input type="checkbox">
+										<span class="slider"></span>
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td><i class="material-icons">check_circle</i>Ground Ambulance Transportation</td>
+								<td>
+									<a href="#"><span class="view"></span></a>
+									<a href="#"><span class="edit"></span></a>
+									<label class="switch">
+										<input type="checkbox">
+										<span class="slider"></span>
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td><i class="material-icons">check_circle</i>Repatriation / Recuperation</td>
+								<td>
+									<a href="#"><span class="view"></span></a>
+									<a href="#"><span class="edit"></span></a>
+									<label class="switch">
+										<input type="checkbox">
+										<span class="slider"></span>
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td><i class="material-icons">check_circle</i>Return Transportation</td>
+								<td>
+									<a href="#"><span class="view"></span></a>
+									<a href="#"><span class="edit"></span></a>
+									<label class="switch">
+										<input type="checkbox">
+										<span class="slider"></span>
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td><i class="material-icons">check_circle</i>Escort Transportation</td>
+								<td>
+									<a href="#"><span class="view"></span></a>
+									<a href="#"><span class="edit"></span></a>
+									<label class="switch">
+										<input type="checkbox">
+										<span class="slider"></span>
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td><i class="material-icons">check_circle</i>Non-injury transportation</td>
+								<td>
+									<a href="#"><span class="view"></span></a>
+									<a href="#"><span class="edit"></span></a>
+									<label class="switch">
+										<input type="checkbox">
+										<span class="slider"></span>
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td><i class="material-icons">check_circle</i>Minor Children / Grandchildren Return</td>
+								<td>
+									<a href="#"><span class="view"></span></a>
+									<a href="#"><span class="edit"></span></a>
+									<label class="switch">
+										<input type="checkbox">
+										<span class="slider"></span>
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td><i class="material-icons">check_circle</i>Organ Retrieval</td>
+								<td>
+									<a href="#"><span class="view"></span></a>
+									<a href="#"><span class="edit"></span></a>
+									<label class="switch">
+										<input type="checkbox">
+										<span class="slider"></span>
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td><i class="material-icons">check_circle</i>Organ Recipient Transportation</td>
+								<td>
+									<a href="#"><span class="view"></span></a>
+									<a href="#"><span class="edit"></span></a>
+									<label class="switch">
+										<input type="checkbox">
+										<span class="slider"></span>
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td><i class="material-icons">check_circle</i>Vehicle Return</td>
+								<td>
+									<a href="#"><span class="view"></span></a>
+									<a href="#"><span class="edit"></span></a>
+									<label class="switch">
+										<input type="checkbox">
+										<span class="slider"></span>
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td><i class="material-icons">check_circle</i>Mortal Remains Transport</td>
+								<td>
+									<a href="#"><span class="view"></span></a>
+									<a href="#"><span class="edit"></span></a>
+									<label class="switch">
+										<input type="checkbox">
+										<span class="slider"></span>
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td><i class="material-icons">check_circle</i>Worldwide Coverage</td>
+								<td>
+									<a href="#"><span class="view"></span></a>
+									<a href="#"><span class="edit"></span></a>
+									<label class="switch">
+										<input type="checkbox">
+										<span class="slider"></span>
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td><i class="material-icons">check_circle</i>Pet Return</td>
+								<td>
+									<a href="#"><span class="view"></span></a>
+									<a href="#"><span class="edit"></span></a>
+									<label class="switch">
+										<input type="checkbox">
+										<span class="slider"></span>
+									</label>
+								</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<th>Service Name</th>
+								<th>Actions</th>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+			  </div>
+			</div>
       </div>
       <footer class="footer">
         <div class="container-fluid">
